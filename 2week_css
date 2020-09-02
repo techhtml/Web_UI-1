@@ -1,0 +1,339 @@
+/* User Agent CSS */
+/* 브라우저에서 미리 지정해둔 CSS */
+
+/* Reset.css */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background: #000;
+  color: #aaa;
+}
+.header a {
+  text-decoration: none;
+  color: #aaa;
+}
+.menu-left {
+  display: flex;
+}
+.logo-area {
+  padding: 10px 0px 10px 5px;
+}
+.logo {
+  padding: 8px;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.navigation {
+  display: flex;
+  padding: 10px 0px 10px 0px;
+}
+.nav-item {
+  display: flex;
+  padding: 10px 7px;
+}
+.menu-right {
+  display: flex;
+  padding: 10px 0px 0px 0px;
+}
+.my-menu {
+  display: flex;
+}
+.my-event {
+  display: flex;
+  padding: 10px 10px;
+}
+.my-event a {
+  position: relative;
+  width: 80px;
+  background: #f3a01a;
+  border-radius: 5px;
+  overflow: hidden;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  text-align: center;
+  padding: 7px;
+}
+.my-item {
+  display: flex;
+  padding: 10px 10px;
+}
+.sign-up {
+  display: flex;
+  padding: 10px 10px;
+}
+.sign-up a {
+  color: #fff;
+  font-weight: bold;
+  padding: 0px 4px 0px 4px;
+}
+.course-list {
+  display: flex;
+}
+.course-card {
+  position: relative;
+  width: 280px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 20px;
+}
+.course-card-title-area-red {
+  display: flex;
+  height: 130px;
+  padding: 15px 10px;
+  background: #f05a55;
+}
+.course-card-title-area-blue {
+  display: flex;
+  height: 130px;
+  padding: 15px 10px;
+  background: #2ac1bc;
+}
+.course-card-title-area-green {
+  display: flex;
+  height: 130px;
+  padding: 15px 10px;
+  background: #00a06a;
+}
+.course-card-title-sub {
+  color: #fff;
+  opacity: 0.7;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.course-card-title-main {
+  font-size: 24px;
+  line-height: 26px;
+  font-weight: 700;
+  color: white;
+}
+
+.course-card-title-badge {
+  background: royalblue;
+  border-radius: 30px;
+  padding: 5px;
+  color: white;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.course-card-meta-area {
+  display: flex;
+  padding: 15px 0;
+}
+.course-card-meta-info {
+  padding: 0 15px;
+  text-align: center;
+}
+.course-card-meta-info-count {
+  font-size: 24px;
+  margin-bottom: 5px;
+  font-weight: 400;
+}
+.course-card-meta-info-title {
+  font-size: 12px;
+  color: #666;
+}
+
+.course-card-play-area {
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+}
+
+.course-card-play-button {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background: white;
+  border: 3px solid #eee;
+  border-radius: 50%;
+  font-size: 0;
+}
+
+.course-card-play-button::after {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: #000;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+.course-card-play-progress {
+  margin-top: 15px;
+  text-align: center;
+  color: #666;
+}
+.main-title-area {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.main-title {
+  line-height: 230%;
+}
+.small-title {
+  font-weight: bold;
+  color: #aaa;
+}
+.large-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #494949;
+}
+.filter {
+  align: right;
+  display: flex;
+  padding: 25px 10px 0px 15px;
+}
+.course-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+.course-section-title-right-button {
+  position: relative;
+  width: 70px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 50px;
+  overflow: hidden;
+  color: #029bdc;
+  font-weight: bold;
+  text-align: center;
+  padding: 7px;
+}
