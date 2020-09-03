@@ -152,10 +152,12 @@ table {
   padding: 8px;
   font-weight: bold;
   font-size: 1.2rem;
+  /* REM 쓰신 특별한 이유가 있으신가요? */
 }
 .navigation {
   display: flex;
   padding: 10px 0px 10px 0px;
+  /* 축약형으로 10px 0 으로 작성할 수 있습니다 */
 }
 .nav-item {
   display: flex;
@@ -164,6 +166,7 @@ table {
 .menu-right {
   display: flex;
   padding: 10px 0px 0px 0px;
+  /* 축약형으로 10px 0 0 으로 작성할 수 있습니다 */
 }
 .my-menu {
   display: flex;
@@ -171,6 +174,7 @@ table {
 .my-event {
   display: flex;
   padding: 10px 10px;
+  /* 축약형으로 10px로 작성할수 있습니다 */
 }
 .my-event a {
   position: relative;
@@ -191,11 +195,13 @@ table {
 .sign-up {
   display: flex;
   padding: 10px 10px;
+  /* 축약형으로 10px로 작성할수 있습니다 */
 }
 .sign-up a {
   color: #fff;
   font-weight: bold;
   padding: 0px 4px 0px 4px;
+  /* 축약형으로 0 4px로 작성할수 있습니다 */
 }
 .course-list {
   display: flex;
@@ -238,13 +244,16 @@ table {
   line-height: 26px;
   font-weight: 700;
   color: white;
+  /* 다른 데에서는 hash 쓰고있으니 여기서도 hash로 쓰면 좋을 거 같아요 */
 }
 
 .course-card-title-badge {
   background: royalblue;
+  /* 다른 데에서는 hash 쓰고있으니 여기서도 hash로 쓰면 좋을 거 같아요 */
   border-radius: 30px;
   padding: 5px;
   color: white;
+  /* 다른 데에서는 hash 쓰고있으니 여기서도 hash로 쓰면 좋을 거 같아요 */
   font-weight: 500;
   font-size: 12px;
 }
@@ -278,6 +287,7 @@ table {
   width: 60px;
   height: 60px;
   background: white;
+  /* 다른 데에서는 hash 쓰고있으니 여기서도 hash로 쓰면 좋을 거 같아요 */
   border: 3px solid #eee;
   border-radius: 50%;
   font-size: 0;
